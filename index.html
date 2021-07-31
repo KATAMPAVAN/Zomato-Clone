@@ -42,11 +42,15 @@
         <section>
             <div class="video__section">
                 <div class="intro__video__class">
-                    <video src="./assets/cookvideo.mp4" class="intro__video"></video>
+                    <video class="intro__video__src" muted="true" muted="true"autoplay playsinline loop>
+                        <source src="./assets/cookvideo.mp4" type="video/mp4">
+                        <source src="./assets/cookvideo.mp4" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video>
                 </div>
                 <div class="intro__text__class">
-                    <h3 class="intro__text">Your food will be prepared safely with an experiences chef, without
-                        compromising on the quality and hygene</h3>
+                    <p class="intro__text">Your food will be prepared safely with an experiences chef, without
+                        compromising on the quality and hygene</p>
 
                 </div>
             </div>
@@ -98,7 +102,7 @@
         <section>
             <div class="restaurants__container">
                 <div class="restaurants__text">
-                    <h2 class="restaurants__text__head">Order From 100s of restaurants</h2>
+                    <h1 class="restaurants__text__head">Order From 100s of restaurants</h1>
                 </div>
                 <div class="restaurants__images">
                     <div class="photos__top">
@@ -116,7 +120,7 @@
         <section>
             <div class="updates__container">
                 <div class="updates__text">
-                    <h2>Stay Updated</h2>
+                    <h1>Stay Updated</h1>
                 </div>
                 <div class="email__container">
                     <div class="email__space">
@@ -127,20 +131,21 @@
                     </div>
                 </div>
             </div>
-            <div class="final__image">
-                <div class="final__img__class">
-                    <img src="./assets/restaurant.jpg" alt="quote" class="final__img__photo">
-                </div>
-                <div class="final__text__class">
-                    <h4 class="final__text__text">
-                        When a man's stomach is full it makes no difference whether he is rich or poor
-                    </h4>
-                </div>
-            </div>
+            
         </section>
+        <div class="final__image">
+            <div class="final__img__class">
+                <img src="./assets/final-image.jpg" alt="quote" class="final__img__photo">
+            </div>
+            <div class="final__text__class">
+                <h4 class="final__text__text">
+                    When a man's stomach is full it makes no difference whether he is rich or poor
+                </h4>
+            </div>
         </div>
         </section>
     </main>
+   
 </body>
 
 </html>
